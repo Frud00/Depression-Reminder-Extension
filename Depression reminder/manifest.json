@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Depression Reminder",
+  "version": "1.0.0",
+  "description": "Will remind you how much time you wasted :)",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
